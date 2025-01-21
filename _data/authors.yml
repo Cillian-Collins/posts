@@ -30,7 +30,7 @@ author1:
     twitter:           LooseSecurity
     # github:          <username>
     # email:           <mail@domain.tld>
-    rss:               feed
+    rss:               /feed
     # facebook:        <username>
     # google:          <number>
     # vk:              <username>
