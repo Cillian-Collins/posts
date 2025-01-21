@@ -5,15 +5,10 @@ baseurl: "/posts" # for test: remove string '/space-jekyll-template' to ''
 url: "" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.github.io'
 
 # User settings
-username: lorem ipsum
-user_title: Lorem Ipsum - FrontEnd
-email: lorem.lorem@ipsum.com
-twitter_username: loremipsum
-github_username:  loremipsum
-discord_invite: cj5rg # Example: Discord server invite gg extension like in 'https://discord.gg/cj5rg'
-linkedin_public_url: loremipsum # Example: For public profile 'www.linkedin.com/in/john-smith', 'john-smith' is your linkedin_public_url
-disqus_username: loremipsum
-profile_picture: https://68.media.tumblr.com/93f384858e9273d5b980b418e2f2f4d5/tumblr_o5i2aybLJG1uapsfmo2_250.png
+username: m0z
+user_title: m0z
+twitter_username: LooseSecurity
+profile_picture: https://www.crowdstrike.com/wp-content/uploads/2023/02/COZY-BEAR_AU.jpg
 
 # Build settings
 markdown: kramdown
