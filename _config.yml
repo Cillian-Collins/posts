@@ -1,6 +1,6 @@
 # Site settings
-title: Lorem Ipsum - Web Developer
-description: "A blog about lorem ipsum ..."
+title: m0z - Research Blog
+description: "A blog about web security research"
 baseurl: "/posts" # for test: remove string '/space-jekyll-template' to ''
 url: "" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.github.io'
 
