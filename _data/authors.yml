@@ -27,10 +27,10 @@ author1:
   # Rearrange to change the order in which they appear
   # You can also provide an absolute URL (starting with https://) instead of usernames
   social:
-    twitter:         <username>
-    github:          <username>
+    twitter:         LooseSecurity
+    # github:          <username>
     # email:           <mail@domain.tld>
-    # rss:             https://<url>/feed.xml
+    rss:               /feed
     # facebook:        <username>
     # google:          <number>
     # vk:              <username>
