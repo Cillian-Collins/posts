@@ -8,4 +8,4 @@ hide_description: true
 
 # About
 
-👋 Hi, I'm m0z. I'm a security researcher based in Ireland. I also play CTFs where I focus on web exploitation.
+👋 Hi, I'm m0z - a security researcher based in Ireland. I focus on topics relating to web exploitation and CTFs.
