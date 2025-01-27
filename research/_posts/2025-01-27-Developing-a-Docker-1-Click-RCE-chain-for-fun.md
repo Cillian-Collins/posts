@@ -7,7 +7,7 @@ sitemap: false
 hide_last_modified: true
 ---
 
-## Preface
+## Developing a Docker 1-Click RCE chain for fun
 I'd like to preface this post by highlighting that this chain requires users to enable a specific setting in their Docker settings. Default installations are secure but if you are a regular Docker user then please make sure that you have this option disabled as otherwise you are vulnerable to RCE.
 
 ## Docker
