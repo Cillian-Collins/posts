@@ -65,6 +65,13 @@ curl -X POST "http://localhost:2375/exec/$exec_id/start" -H "Content-Type: appli
 
 Since the command to execute is `mkdir /mnt/tmp/pwned` this will create a directory named `pwned` in our `/tmp` directory on the *host* filesystem.
 
+### Host System Shell
+Since we have arbitrary write on the host system it is pretty trivial to get a shell now. The above PoC just created the folder on the home system to prove that we have write permissions.
+
+I will avoid spending too much time explaining how this can be done but one option is to overwrite `.bashrc` for the root user and wait for next log in. On Windows you can write a batch script to `C:/Users/<user>/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup/` which will execute on the next sign in.
+
+Alternatively you could overwrite `.so` files on linux or `.dll` on Windows if you want to achieve an instant shell. I'll leave this as an exercise for the reader. 😂
+
 ## One-Click RCE
 So at this point you should have a good idea of how we can exploit an exposed Docker API. This gave me an idea though; since this runs on `localhost:2375` is there a way for us to abuse this through a browser? That is, could we find a way of exploiting a user who visits our website and has this service running on their localhost?
 
