@@ -1,3 +1,12 @@
+---
+layout: post
+title: SECCON CTF 2025 Writeups (Web)
+description: >
+  In this blog post we will discuss the solutions for SECCON 2025 Web category.
+sitemap: false
+hide_last_modified: true
+---
+
 I played SECCON this year with mörger which, as the name might suggest, was a merger between my team AresX and Zer0RocketWrecks.
 
 I think the authors this year found a very good balance in creating challenges which were conceptually easy to understand but difficult to solve. The best challenges are always those with very little source code/noise but incredibly clever solutions.
@@ -821,6 +830,7 @@ app.listen(3000);
 
 The full source code is really small. We can create a note by sending a POST request to `/new` where is gets stored in `db` which is a `Map` type. Subsequently we can visit the index page at `/` which takes an optional `query` GET parameter. This parameter filters the notes returned to only pass those which contain the query string.
 
+{% raw %}
 ```html
 <!DOCTYPE html>
 <html>
@@ -833,7 +843,7 @@ The full source code is really small. We can create a note by sending a POST req
       </div>
     </form>
     <ul>
-      <% notes.forEach(note => /\{\%>
+      <% notes.forEach(note => {%>
         <li><%= note %></li>
       <% }); %>
     </ul>
@@ -846,6 +856,7 @@ The full source code is really small. We can create a note by sending a POST req
   </body>
 </html>
 ```
+{% endraw %}
 
 The above template is how the notes get rendered. For each note returned from the lookup we will create a `<li>` element containing the note text. This will display the notes as bullet points on the page.
 
