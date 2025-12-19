@@ -20,15 +20,10 @@ Starting off, we open up the archive and can immediately see we have a directory
 
 ```javascript
 await context.setCookie({
-
       name: "FLAG",
-
       value: flag.value,
-
       domain: "hack.the.planet.seccon",
-
       path: "/",
-
     });
 ```
 
@@ -40,13 +35,9 @@ There is no accompanying web application with this challenge. After discovering 
 
 ```javascript
 app.get("/hint", (req, res) => {
-
   res.render("hint", {
-
     hint: fs.readFileSync("./cert.key"),
-
   });
-
 });
 ```
 
