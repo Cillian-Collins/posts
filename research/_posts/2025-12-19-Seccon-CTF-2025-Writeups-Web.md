@@ -833,7 +833,7 @@ The full source code is really small. We can create a note by sending a POST req
       </div>
     </form>
     <ul>
-      <% notes.forEach(note => /\{%/>
+      <% notes.forEach(note => /\{\%>
         <li><%= note %></li>
       <% }); %>
     </ul>
