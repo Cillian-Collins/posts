@@ -107,7 +107,7 @@ The certificate URL must be served over HTTPS and provide a CBOR-encoded certifi
 
 ## Implementation
 
-Okay now it's time to put this all together and set solve the challenge.
+Okay now it's time to put this all together and solve the challenge.
 
 We'll begin with the two files we already recovered above, namely the `cert.crt` and `cert.key` files.
 
